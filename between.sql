@@ -1,0 +1,1 @@
+select * from person where date_of_birth between '2021-01-01' and '2021-12-31';

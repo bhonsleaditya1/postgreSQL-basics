@@ -1,0 +1,1 @@
+select distinct country_of_birth from person order by country_of_birth;

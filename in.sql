@@ -1,0 +1,2 @@
+select * from person where country_of_birth='China' or country_of_birth='France' or country_of_birth = 'Brazil';
+select * from person where country_of_birth in ('China','Brazil','France') order by country_of_birth;

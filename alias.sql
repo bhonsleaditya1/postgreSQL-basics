@@ -1,0 +1,1 @@
+select id,car,model,price, round(price*0.10,2) as 10%_discount, round(price -(price*0.1),2) as discounted_price from cars;
